@@ -29,6 +29,16 @@ body{
     display: block;
 }
 
+.btn{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 20px 26px ;
+    width: 20vh;
+    height: 20vh;
+    background-color: blueviolet;
+    cursor: pointer;
+}
 
 
 .btn:hover{
