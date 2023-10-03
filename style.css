@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 170vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    float: left;
+    background-color: black;
+    color:aliceblue;
+    width: 200px;
+    margin: 20px;
+    display: none;
+    
+
+}
+
+
+.show{
+    display: block;
+}
+
+
+
+.btn:hover{
+    background-color: beige;
+}
+
+
+
+
+
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px opx black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
