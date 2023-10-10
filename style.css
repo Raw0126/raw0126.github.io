@@ -1,61 +1,145 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Courier New', Courier, monospace;
 }
 
 body{
-    height: 170vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: rgb(255, 251, 251);
+ 
 }
 
-.box{
-    float: left;
-    background-color: black;
-    color:aliceblue;
-    width: 200px;
-    margin: 20px;
-    display: none;
+.logo{
+ 
+    justify-content: center;
+    align-items: center;
+
+    
     
 
 }
 
+.logo img{
+    width: 20%;
+    border: 3px solid rgb(255, 250, 250);
+    border-radius:  50px;
 
-.show{
-    display: block;
 }
 
-.btn{
+
+.navbar{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+
+.nav-list{
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.nav-list li{
+ list-style: none;
+ padding: 26px 30px;
+
+}
+
+.nav-list li a{
+
+    text-decoration: none;
+    color: rgb(72, 43, 238);
+
+}
+
+.nav-list li a:hover{
+
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+
+
+.container{
+    position: relative;
+    max-width: 1350px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+
+.filter_buttons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgb(226, 216, 196);
     border: none;
-    outline: none;
-    margin-bottom: 20px;
-    padding: 20px 26px ;
-    width: 20vh;
-    height: 20vh;
-    background-color: blueviolet;
-    cursor: pointer;
+    border-radius: 6px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+}
+
+button.active{
+   background-color: #2750c4;
+   color: #fff; 
+}
+
+.filterable_cards{
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.card.hide{
+    display: none;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 
-.btn:hover{
-    background-color: beige;
+.card_body{
+    padding: 15px 20px 20px; 
+}
+
+.card_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+.card_text{
+    font-size: 18px;
+    color: #333;
 }
 
 
 
-
-
-div img{
-    width: 400px;
-    height: 300px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px opx black;
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-}
