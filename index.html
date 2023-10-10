@@ -1,80 +1,160 @@
 <!DOCTYPE html>
-<html>
-    <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera Dummy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    
+    
+</head>
+
+<body>
+    <div class="logo"><img src="Coursera-Logo.png" alt="logo"></div>
 
 
-        <link rel="stylesheet" href="style.css">
-
-        <title>Filter </title>
-
-
-        <body>
-
-
-            <title>Left Corner Text </title>
-       
+    <nav class="navbar background ">
+        <ul class="nav-list">
            
-
-            
-
-
-<table style="width:100%;height:100%;">
-    <tr>
-        <td style="width:250px;background-color:whitesmoke;color:black;text-align:center;">
-
- 
-            
-            <div style="text-align:left;margin-left: 25%; margin-top: -50vh;">
-
-  <div style="position: absolute; top: 20; left: 0;">
-                
-                <h1 style="font-size: 250%; color: blue;";>COURSERA</h1>
-                
-                
-           
-            </div>
-
-                
-
-            <h2>Duration<br></h2>
-
-          <h3> <label><input type="radio"  name="category" value="all" checked>All</label><br></h3> 
-           <h4> <label><input type="radio" name="category" value="3Months">3Months</label><br></h4>
-           <h4> <label><input type="radio" name="category" value="6Months">6Months</label><br></h4>
-           <h4>  <label><input type="radio"  name="category" value="12Months">12Months</label><br></h4>
-            </div>
-            <br>
-            </td>
-            
-            <td style="padding:20px;">
+<li> <a href="#Online Degrees">Online Degrees</a> </li>
+<li> <a href="#Find Your New Career">Find Your New Career</a> </li>
+<li> <a href="#Login">Login</a> </li>
+<li> <a href="#Join for Free">Join for Free</a> </li>
+        </ul>
 
 
 
+    <div class="container">
 
-<div id = "images">
-    <img id="img1" src="images/1.jpg" alt="" >
-    <img id="img2"  src="images/2.jpg" alt="">
-    <img id="img3"  src="images/3.jpg" alt="">
-    <img id="img4" src="images/4.jpg" alt="">
-    <img id="img5" src="images/5.jpg" alt="">
-    <img id="img6"src="images/6.jpg" alt="">
-    <img id="img7" src="images/7.jpg" alt="">
-    <img id="img8" src="images/8.jpg" alt="">
-    <img id="img9" src="images/9.jpg" alt="">
-    <img id="img10" src="images/10.jpg" alt="">
-    <img id="img11" src="images/11.jpg" alt="">
-    <img id="img12" src="images/12.jpg" alt="">
+      
+    
+    
+        </nav>
+
+        <div class="filter_buttons">
+        <button  class="active" data-name="dura">Duration</button>
+        <button data-name="3Month">3Months</button>
+        <button data-name="6Month">6Months</button>
+        <button data-name="12Month">12Months</button>
+    
+        </div>
+
+<!--Images cards-->
+
+<div class="filterable_cards">
+
+<div class="card" data-name="3Month">
+<img src="1.jpg" alt="3month"/>
+<div class="card_body">
+    <h6 class="card_title">HTML</h6>
+    <p class="card_text">HTML Course</p>
+</div>
 </div>
 
+<div class="card" data-name="6Month">
+    <img src="2.jpg" alt="6month"/>
+    <div class="card_body">
+        <h6 class="card_title">JAVA</h6>
+        <p class="card_text">JAVA Course</p>
+    </div>
+    </div>
 
 
-</td>
-</tr>
-</table>
-<script src="script.js"></script>
+    <div class="card" data-name="3months">
+        <img src="3.jpg" alt="3month"/>
+        <div class="card_body">
+            <h6 class="card_title">MACHINE LEARNING</h6>
+            <p class="card_text">Machine Learning Course</p>
+        </div>
+        </div>
 
-        </body>
-    </head>
+
+      
+        <div class="card" data-name="3Month">
+            <img src="4.jpg" alt="3month"/>
+            <div class="card_body">
+                <h6 class="card_title">DATA ANALYST</h6>
+                <p class="card_text">data Science Course</p>
+            </div>
+            </div>
+            
+            <div class="card" data-name="6Month">
+                <img src="5.jpg" alt="6month"/>
+                <div class="card_body">
+                    <h6 class="card_title">DATA SCIENCE</h6>
+                    <p class="card_text">Data Science Course</p>
+                </div>
+                </div>
+            
+            
+                <div class="card" data-name="3months">
+                    <img src="6.jpg" alt="3month"/>
+                    <div class="card_body">
+                        <h6 class="card_title">UX DESIGN</h6>
+                        <p class="card_text">UX Design Course</p>
+                    </div>
+                    </div>
+
+
+
+
+                    <div class="card" data-name="6Month">
+                        <img src="7.jpg" alt="6Month"/>
+                        <div class="card_body">
+                            <h6 class="card_title">HTML</h6>
+                            <p class="card_text">HTML Course</p>
+                        </div>
+                        </div>
+                        
+                        <div class="card" data-name="3Month">
+                            <img src="8.jpg" alt="3Month"/>
+                            <div class="card_body">
+                                <h6 class="card_title">JAVA</h6>
+                                <p class="card_text">JAVA Course</p>
+                            </div>
+                            </div>
+                        
+                        
+                            <div class="card" data-name="6Month">
+                                <img src="9.jpg" alt="6Month"/>
+                                <div class="card_body">
+                                    <h6 class="card_title">MACHINE LEARNING</h6>
+                                    <p class="card_text">Machine Learning Course</p>
+                                </div>
+                                </div>
+                        
+                        
+                              
+                                <div class="card" data-name="12Month">
+                                    <img src="10.jpg" alt="12Month"/>
+                                    <div class="card_body">
+                                        <h6 class="card_title">DATA ANALYST</h6>
+                                        <p class="card_text">data Science Course</p>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="card" data-name="3Month">
+                                        <img src="11.jpg" alt="3Month"/>
+                                        <div class="card_body">
+                                            <h6 class="card_title">DATA SCIENCE</h6>
+                                            <p class="card_text">Data Science Course</p>
+                                        </div>
+                                        </div>
+                                    
+                                    
+                                        <div class="card" data-name="12Month">
+                                            <img src="12.jpg" alt="12Month"/>
+                                            <div class="card_body">
+                                                <h6 class="card_title">UX DESIGN</h6>
+                                                <p class="card_text">UX Design Course</p>
+                                            </div>
+                                            </div>
+
+</div>
+
+    </div>
+    
+</body>
+</body>
 </html>
